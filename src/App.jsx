@@ -14,11 +14,7 @@ export const App = () => {
 
   // DON'T change the code below
   const increase = () => {
-    if (count === 0) {
-      // Obs, sei que não deveria modificar o código, mas como os testes não funcionavam, procurei testar essa condição
-      add100();
-      addOne();
-    } else if (count % 5 === 0) {
+    if (count % 5 === 0) {
       add100();
     }
 
